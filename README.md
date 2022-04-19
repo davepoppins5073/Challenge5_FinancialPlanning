@@ -22,13 +22,14 @@ The requirement.txt file in this repository contain all the packages you'll need
 python -m pip install -r requirements.txt
 ```
 ### Imports
-* pandas
-* numpy
-* pathlib
-* os
-* matplotlib (pyplot)
-* json
-* requests
+```python
+import numpy as np
+import pandas as pd
+import os
+import alpaca_trade_api as tradeapi
+import datetime as dt
+import pytz
+```
 
 # A word about predictions 
 ![9780812973815](https://user-images.githubusercontent.com/101449950/163919796-3c537be4-c4c0-46cc-81f3-9031d3faa786.jpeg)
