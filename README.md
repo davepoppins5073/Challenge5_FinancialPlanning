@@ -38,4 +38,6 @@ python -m pip install -r requirements.txt
 
 It important whenever we are talking about prediction in any discipline, finance of course included, to acknowledge our blind spots and the extent to which the  past can be a proxy for future occurrences. In thos exercise we used the Monte Carlo Method of simulation in order to predict future occurences in order to help credit union members plan for the future. 
 
+# Code
+
 # Resources
