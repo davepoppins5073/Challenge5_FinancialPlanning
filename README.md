@@ -43,4 +43,11 @@ It important whenever we are talking about prediction in any discipline, finance
 
 # Code
 
+## api.env
+```python
+# Load the environment variables from the .env file
+# by calling the load_dotenv function
+load_dotenv('app.env')
+```
+In order for this code to work for you, you would need to have API keys saved to a file kept in the same directory as your ipynb file. In this case we are using the Alpaca API. If you have not done so please visit the Alpaca Website now get your API Keys.
 # Resources
