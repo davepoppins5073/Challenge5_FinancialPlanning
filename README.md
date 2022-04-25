@@ -41,7 +41,7 @@ from MCForecastTools import MCSimulation
 
 It important whenever we are talking about prediction in any discipline, finance of course included, to acknowledge our blind spots and the extent to which the  past can be a proxy for future occurrences. In thos exercise we used the Monte Carlo Method of simulation in order to predict future occurences in order to help credit union members plan for the future. 
 
-# Code
+# CODE
 
 ## api.env
 ```python
@@ -50,6 +50,18 @@ It important whenever we are talking about prediction in any discipline, finance
 load_dotenv('app.env')
 ```
 In order for this code to work for you, you would need to have API keys saved to a file kept in the same directory as your ipynb file. In this case we are using the Alpaca API. If you have not done so please visit the Alpaca Website now get your API Keys.
+
+## FUNCTIONS
+API_CryptoCoinSetup
+API_CryptoPrices
+create_savings_df
+
+<img width="554" alt="Screen Shot 2022-04-24 at 10 17 19 PM" src="https://user-images.githubusercontent.com/101449950/165010132-e64b5ea4-c7ea-4d14-a418-70c2356f1f8c.png">
+
+<img width="613" alt="Screen Shot 2022-04-24 at 10 21 17 PM" src="https://user-images.githubusercontent.com/101449950/165010280-a7286c52-699f-4feb-bdce-f37f14b593d5.png">
+
+<img width="645" alt="Screen Shot 2022-04-24 at 10 22 49 PM" src="https://user-images.githubusercontent.com/101449950/165010398-05a17742-8e80-48c3-a15a-3c0dae79079b.png">
+
 
 ## My Answer
 From Investopedia we have the following:
@@ -71,16 +83,16 @@ However I want to show proof.
 
 
 #### **SPY**
-##### **Sortino Ratio Chart**
+**Sortino Ratio Chart**
 -- <ins>The Sortino Ratio</ins> is an indicator that measures a portfolio's risk-adjusted performance. The Sortino ratio is the ratio of a portfolio's excess return to risk. It is widely used as an indicator of the "quality" of an investment fund or portfolio.  The current Sortino ratio is -0.13 - A Sortino ratio between 0 and 1.0 is considered sub-optimal.
 
 You can see the work I did below but I reran the Monte Carlo assuming the same amount of starting capital, and got a new upper and lower limit with 95% certainty:
 
-##### 80/20 ratio Scenario 1
+***<ins>80/20 ratio Scenario 1</ins>***
 -> 10 years lower w/SPY Stock:  $56,633.15
 -> 10 years upper w/SPY Stock: $117,595.54
 
-#### 80/20 ratio Scenario 2
+***<ins>880/20 ratio Scenario 2</ins>***
 -> 10 years lower w/ TSLA Stock:  $75,205.31
 -> 10 years upper w/ TSLA Stock: $366,625.64
 
