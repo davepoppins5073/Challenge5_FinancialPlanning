@@ -52,9 +52,9 @@ load_dotenv('app.env')
 In order for this code to work for you, you would need to have API keys saved to a file kept in the same directory as your ipynb file. In this case we are using the Alpaca API. If you have not done so please visit the Alpaca Website now get your API Keys.
 
 ## FUNCTIONS
-API_CryptoCoinSetup
-API_CryptoPrices
-create_savings_df
+1. API_CryptoCoinSetup
+2. API_CryptoPrices
+3. create_savings_df
 
 <img width="554" alt="Screen Shot 2022-04-24 at 10 17 19 PM" src="https://user-images.githubusercontent.com/101449950/165010132-e64b5ea4-c7ea-4d14-a418-70c2356f1f8c.png">
 
