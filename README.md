@@ -99,3 +99,5 @@ You can see the work I did below but I reran the Monte Carlo assuming the same a
 My guess and I am not a portfolio manager, is that the strategy of investing more in a more volatile asset for a shorter period of time can work if the right stock is picked. 
 
 ## Resources
+investopedia: http://investopedia.com
+portfolio labs: https://portfolioslab.com
